@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.coverage.*
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Data files (optional: ignore large datasets or output files)
+data/raw/
+data/processed/
+data/models/
+data/*.csv
+data/*.joblib
+data/*.pkl
+data/raw/postings.csv
+data/processed/job_data.parquet
+
+# Ignore all CSV and Parquet files
+*.csv
+*.parquet
+
+# (Optional) Ignore them inside specific folders
+data/*.csv
+data/**/*.csv
+data/*.parquet
+data/**/*.parquet
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Others
+*.pyc
+*.pyo
+*.pyd
